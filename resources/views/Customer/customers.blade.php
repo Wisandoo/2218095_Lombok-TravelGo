@@ -14,8 +14,9 @@ Customers | Lombok Travel-Go Admin
     <tr>
         <th scope="col" style="width: 20%">Photo</th>
         <th>Customer</th>
-        <th scope="col" style="width: 15%">Price</th>
-        <th scope="col" style="width: 30%">Description</th>
+        <th scope="col" style="width: 15%">Alamat</th>
+        <th scope="col" style="width: 15%">Jenis Kelamin</th>
+        <th scope="col" style="width: 15%">Deskripsi</th>
         <th scope="col" style="width: 20%">Action</th>
     </tr>
   </thead>
