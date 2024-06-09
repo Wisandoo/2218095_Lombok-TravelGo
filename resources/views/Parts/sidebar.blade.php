@@ -1,6 +1,6 @@
 <div class="sidebar">
   <div class="logo-details">
-    <i class="bx bx-category"></i>
+    <i class="bx bx-customer"></i>
     <span class="logo_name">Lombok Travel-Go</span>
   </div>
   <ul class="nav-links">
@@ -11,7 +11,7 @@
       </a>
     </li>
     <li>
-      <a href="/category" class="{{ request()->Is('category*') ? 'active' : '' }}">
+      <a href="/customer" class="{{ request()->Is('customer*') ? 'active' : '' }}">
         <i class="bx bx-box"></i>
         <span class="links_name">Customer Data</span>
       </a>

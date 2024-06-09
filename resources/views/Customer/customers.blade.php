@@ -36,7 +36,7 @@ Customers | Lombok Travel-Go Admin
     </tr>
     @empty
     <tr>
-      <td colspan="5" align="center">Tidak ada data</td>
+      <td colspan="10" align="center">Tidak ada data</td>
     </tr>
     @endforelse
   </tbody>
