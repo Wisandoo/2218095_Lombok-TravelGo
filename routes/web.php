@@ -26,4 +26,4 @@ Route::get('/customer/edit/{id}', [CustomerController::class, 'edit']);
 Route::put('/customer/update/{id}', [CustomerController::class, 'update']);
 Route::get('/customer/hapus/{id}', [CustomerController::class, 'delete']);
 Route::get('/customer/destroy/{id}', [CustomerController::class, 'destroy']);
-
+Route::get('/customer/cetak', [CustomerController::class, 'cetak']);

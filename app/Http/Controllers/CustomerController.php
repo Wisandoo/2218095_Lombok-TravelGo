@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Customer;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
-
+use Barryvdh\DomPDF\Facade\Pdf;
 class CustomerController extends Controller
 {
     public function index()
@@ -96,6 +96,13 @@ class CustomerController extends Controller
         File::delete('img_customers/'.$customer->gambar);
         $customer->delete();
         return redirect('/customer');
+    }
+
+    public function cetak()
+    {
+        $customer = Customer::all();
+        $pdf = Pdf::loadview('Customer.customers-cetak', compact('customer'));
+        return $pdf->download('laporan-customers.pdf');
     }
 
 }

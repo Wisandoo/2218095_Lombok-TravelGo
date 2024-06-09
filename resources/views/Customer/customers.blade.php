@@ -9,6 +9,7 @@ Customers | Lombok Travel-Go Admin
 <button type="button" class="btn btn-tambah">
   <a href="/customer/tambah">Tambah Data</a>
 </button>
+<button type="button" class="btn"><a href="/customer/cetak">Cetak</a></button>
 <table class="table-data">
   <thead>
     <tr>
